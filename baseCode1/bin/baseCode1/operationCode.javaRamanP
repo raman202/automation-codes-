@@ -1,0 +1,59 @@
+package baseCode1;
+
+public class operationCode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a = 10; 
+		
+		
+		int b = 20; 
+		
+		int c = 12;
+		
+		
+		int sum; 
+		a = 40;
+		
+		sum = a+b+c;
+		
+		
+		System.out.println(sum);
+		
+		int sub; 
+		
+		sub = a-b; 
+		
+		System.out.println(sub);
+	
+	
+		String name;
+		
+	name = "Raman";
+	
+	String name2;
+		name2 = "Paul";
+		
+			
+	
+		System.out.println(name2);
+		System.out.println(name2);
+		
+		
+		boolean car = a<b;
+		boolean car1 = sub==b;
+		
+			
+	System.out.print(car);
+	
+		
+		System.out.println(car);
+		
+		
+		
+		
+		
+	}
+
+}

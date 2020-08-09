@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Pendora register test]">
+  <parameter name="date" value="1"/>
+  <parameter name="lastName" value="Paul"/>
+  <parameter name="firstname" value="Gurmehar"/>
+  <parameter name="birthyear" value="1988"/>
+  <parameter name="gender" value="female"/>
+  <parameter name="year" value="1987"/>
+  <parameter name="lastname" value="Paul"/>
+  <parameter name="zipcode" value="20111"/>
+  <parameter name="firstName" value="Raman"/>
+  <parameter name="password" value="princess1"/>
+  <parameter name="phone" value="5713839976"/>
+  <parameter name="confirmPassword" value="TheOne1"/>
+  <parameter name="email" value="meharpaul1987"/>
+  <test name="Yahoo SignUp data driven testing(failed)">
+    <parameter name="date" value="1"/>
+    <parameter name="firstname" value="Gurmehar"/>
+    <parameter name="password" value="princess1"/>
+    <parameter name="gender" value="female"/>
+    <parameter name="year" value="1987"/>
+    <parameter name="email" value="meharpaul1987"/>
+    <parameter name="lastname" value="Paul"/>
+    <classes>
+      <class name="TestNGCode.Phptravels">
+        <methods>
+          <include name="BeforeTestConfig"/>
+          <include name="AfterTest"/>
+        </methods>
+      </class> <!-- TestNGCode.Phptravels -->
+      <class name="TestNGCode.PandoraSignUp2">
+        <methods>
+          <include name="aftertest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- TestNGCode.PandoraSignUp2 -->
+      <class name="TestNGCode.YahooTestNG">
+        <methods>
+          <include name="aftertest"/>
+          <include name="YahooSignUpTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- TestNGCode.YahooTestNG -->
+    </classes>
+  </test> <!-- Yahoo SignUp data driven testing(failed) -->
+</suite> <!-- Failed suite [Pendora register test] -->

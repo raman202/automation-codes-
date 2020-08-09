@@ -1,0 +1,29 @@
+package baseCode1;
+
+public class rentPayment {
+
+	public static void main(String[] args) {
+	    // Create a rent calculator program,
+		
+int basicRent = 1200;
+int utility = 45;
+int parking = 25;
+
+int totalRent;
+
+totalRent = basicRent + utility + parking;
+
+String NM = "RamanPaul";
+
+System.out.println(totalRent);
+System.out.println(NM);
+
+
+
+		
+		
+		
+		
+	}
+
+}

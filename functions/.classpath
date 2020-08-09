@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="featurefiles"/>
+	<classpathentry kind="src" path="cucumberlib"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="lib" path="sellibrary/selenium-java-2.53.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="sellibrary/selenium-server-standalone-2.53.0 (1).jar"/>
+	<classpathentry exported="true" kind="lib" path="src/functions/TestNG/testng-6.10.jar" sourcepath="src/TestNGCode"/>
+	<classpathentry kind="lib" path="sellibrary/TTestNG/testng-6.10.jar" sourcepath="sellibrary/TTestNG/testng-6.10.jar"/>
+	<classpathentry kind="lib" path="cucumberlib/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="cucumberlib/cucumber-core-1.2.4.jar"/>
+	<classpathentry kind="lib" path="cucumberlib/cucumber-html-0.2.6.jar"/>
+	<classpathentry kind="lib" path="cucumberlib/cucumber-java-1.2.4.jar"/>
+	<classpathentry kind="lib" path="cucumberlib/cucumber-junit-1.2.4.jar"/>
+	<classpathentry kind="lib" path="cucumberlib/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="cucumberlib/cucumber-reporting-2.7.0.jar"/>
+	<classpathentry kind="lib" path="cucumberlib/cucumber-testng-1.2.4.jar"/>
+	<classpathentry kind="lib" path="cucumberlib/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="cucumberlib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="cucumberlib/mockito-all-1.9.1-20110911.jar"/>
+	<classpathentry kind="lib" path="cucumberlib/selenium-java-2.53.0 (1).jar"/>
+	<classpathentry kind="lib" path="cucumberlib/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="cucumberlib/testng-6.10 (1).jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

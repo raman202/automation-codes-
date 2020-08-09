@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Testing]">
+  <test name="Release 1.0(failed)">
+    <classes>
+      <class name="TestNGCode.YahooTestNG">
+        <methods>
+          <include name="validateURl"/>
+          <include name="ValidateTitle"/>
+          <include name="YahooSignUpTest"/>
+          <include name="ValidateUrlTile"/>
+        </methods>
+      </class> <!-- TestNGCode.YahooTestNG -->
+      <class name="TestNGCode.Phptravels">
+        <methods>
+          <include name="getUrl"/>
+          <include name="BeforeTestConfig"/>
+          <include name="PhpSignupTest"/>
+          <include name="validateSignupButton"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- TestNGCode.Phptravels -->
+    </classes>
+  </test> <!-- Release 1.0(failed) -->
+</suite> <!-- Failed suite [Smoke Testing] -->

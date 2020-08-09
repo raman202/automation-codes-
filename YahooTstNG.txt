@@ -1,0 +1,95 @@
+package TestNGCode;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import functions.YahooSignUpWebobjects;
+import functions.functioncode1;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+
+public class YahooTestNG {
+	
+	
+	
+	WebDriver driver = new ChromeDriver();	
+	functioncode1 obj1 = new functioncode1(); 
+	YahooSignUpWebobjects SignupPage = new YahooSignUpWebobjects(driver);
+	
+@BeforeTest	
+
+	public void  beforeTest () {
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Desktop\\testing drivers\\chromedriver.exe");
+
+	driver.get("https://login.yahoo.com/account/create?specId=yidReg");
+		driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);	
+		driver.manage().window().maximize();
+
+		String Title = driver.getTitle();
+			System.out.println(Title);
+		String URL = driver.getCurrentUrl();
+			System.out.println("URl is below");
+			System.out.println(URL);
+	
+}
+
+
+@AfterTest
+
+	public void aftertest (){
+	
+		driver.manage().deleteAllCookies();	
+		obj1.printName();
+		driver.quit();	
+}
+
+@Test
+
+	public void runTest () {
+	
+		WebElement FirstName = SignupPage.UserFirstName();
+			FirstName.sendKeys("Mehar");
+
+		WebElement LastName = SignupPage.UserLastName();
+			LastName.sendKeys("Paul");
+
+		WebElement Email = SignupPage.UserEmail();
+			Email.sendKeys("meharpaul");	
+
+		WebElement Password = SignupPage.UserPassward();
+			Password.sendKeys("2020TheOne1");
+		
+		WebElement Phone = SignupPage.PhoneNumber();
+			Phone.sendKeys("5713839976");
+		
+		Select Month = new Select(SignupPage.GetMonth());
+			Month.selectByVisibleText("July");
+
+		WebElement Date = SignupPage.GetDate();
+			Date.sendKeys("6");
+
+		WebElement Year = SignupPage.GetYear();
+			Year.sendKeys("1987");
+
+		WebElement GetGender = SignupPage.GetGender();
+			GetGender.sendKeys("Female");
+
+		
+		boolean ContinueButton = driver.findElement(By.id("reg-submit-button")).isDisplayed();
+			if (ContinueButton) {System.out.println("Submit Button is displayed");}
+			
+		boolean ContinueButton1 = driver.findElement(By.id("reg-submit-button")).isEnabled();
+			if (ContinueButton1) {System.out.println("Submit Button is enabled");}	
+
+}
+
+
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Php Trvel Sign Up Data driven testing">
+
+<test name="Sign Up psitive data set">
+
+<parameter name="firstName" value="Raman"/>
+<parameter name="lastName" value="Paul"/>
+<parameter name="phone" value="5713839976"/>
+<parameter name="email" value="RamanP@gmail.com"/>
+<parameter name="password" value="TheOne1"/>
+<parameter name="confirmPassword" value="TheOne1"/>
+
+<classes>
+<class name="TestNGCode.Phptravels"/>
+
+</classes>
+
+
+</test>
+</suite>

@@ -1,0 +1,23 @@
+st<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Smoke Testing">
+
+<test name ="Release 1.0">
+
+<classes>
+<class name = "TestNGCode.YahooTestNG"/>
+
+<class name = "TestNGCode.Phptravels"/>
+
+
+</classes>
+
+</test>
+
+</suite>
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Php Trvel Sign Up Data driven testing]">
+  <parameter name="firstName" value="Raman"/>
+  <parameter name="lastName" value="Paul"/>
+  <parameter name="password" value="TheOne1"/>
+  <parameter name="phone" value="5713839976"/>
+  <parameter name="confirmPassword" value="TheOne1"/>
+  <parameter name="email" value="RamanP@gmail.com"/>
+  <test name="Sign Up psitive data set(failed)">
+    <parameter name="firstName" value="Raman"/>
+    <parameter name="lastName" value="Paul"/>
+    <parameter name="password" value="TheOne1"/>
+    <parameter name="phone" value="5713839976"/>
+    <parameter name="confirmPassword" value="TheOne1"/>
+    <parameter name="email" value="RamanP@gmail.com"/>
+    <classes>
+      <class name="TestNGCode.Phptravels">
+        <methods>
+          <include name="BeforeTestConfig"/>
+          <include name="PhpSignupTest"/>
+          <include name="AfterTest"/>
+        </methods>
+      </class> <!-- TestNGCode.Phptravels -->
+    </classes>
+  </test> <!-- Sign Up psitive data set(failed) -->
+</suite> <!-- Failed suite [Php Trvel Sign Up Data driven testing] -->
