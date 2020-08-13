@@ -15,7 +15,7 @@ Feature: Yahoo Sign Up
     Given user is on the Yahoo sign page
     And user can enter the firstname "<Firstname>"
     And user can enter the lastname "<Lastname>"
-    And user can enter the passward "<Passward>"
+    And user can enter the password "<Password>"
     And user can enter the phone "<PhoneNumber>"
     When user can select the birth month "<Month>"
     When user can enter the birth date "<Date>"
@@ -25,7 +25,7 @@ Feature: Yahoo Sign Up
     Then user can close browser
 
     Examples: 
-      | Firstname | Lastname | Passward       | PhoneNumber | Month | Date | Year | Gender | Email          |
+      | Firstname | Lastname | Password       | PhoneNumber | Month | Date | Year | Gender | Email          |
       | Raman     | Paul     | TheOne&Only    |  5713839976 | July  |    6 | 1987 | male   | meharpaul1987  |
       | Monika    | Banger   | MonikaPaul2013 |  5713835390 | May   |    2 | 1990 | female | monikabanger10 |
       | Mehar     | Paul     | MharPaul2019   |  5713835550 | March |    1 | 2019 | female | meharpaul2019  |

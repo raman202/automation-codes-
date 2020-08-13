@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Amazon Sign Up Data driven testing">
+
+<test name="Sign Up/ creat new account">
+
+<parameter name="fullName" value="Raman Paul"/>
+<parameter name="email" value="PaulRaman87@gmail.com"/>
+<parameter name="password" value="12345Paul"/>
+<parameter name="confirmPassword" value="12345Paul"/>
+
+<classes>
+<class name="TestNGCode.AmazonSignup1"/>
+</classes>
+</test>
+<test name ="Pendora sign up data driven testing">
+<parameter name="email" value="RamanPaul@gmail.com"/>
+<parameter name="password" value="TheOne1"/>
+<parameter name="birthyear" value="1988"/>
+<parameter name="zipcode" value="20111"/>
+
+<classes>
+<class name = "TestNGCode.PandoraSignUp2"/>
+</classes>
+</test>
+
+<test name = "PHP Tours data driven testing">
+<parameter name="firstName" value="Raman"/>
+<parameter name="lastName" value="Paul"/>
+<parameter name="phone" value="5713839976"/>
+<parameter name="email" value="RamanP@gmail.com"/>
+<parameter name="password" value="TheOne1"/>
+<parameter name="confirmPassword" value="TheOne1"/>
+
+<classes>
+<class name="TestNGCode.Phptravels"/>
+</classes>
+</test>>
+
+<test name ="Yahoo SignUp data driven testing">
+
+<parameter name="firstname" value="Gurmehar"/>
+<parameter name="lastname" value="Paul"/>
+<parameter name="email" value="meharpaul1987"/>
+<parameter name="password" value="princess1!!"/>
+<parameter name="phone" value="5713835390"/>
+<parameter name="date" value="1"/>
+<parameter name="year" value="1987"/>
+<parameter name="gender" value="female"/>
+
+<classes>
+<class name="TestNGCode.YahooTestNG"/>
+</classes>
+</test>
+
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
