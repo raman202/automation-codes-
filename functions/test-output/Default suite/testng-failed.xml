@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="TestNGCode.Phptravels">
+      <class name="TestNGCode.AmazonSignup1">
         <methods>
-          <include name="BeforeTestConfig"/>
-          <include name="PhpSignupTest"/>
+          <include name="AmazonSignDataEnter"/>
           <include name="AfterTest"/>
+          <include name="BeforeTestConfig"/>
         </methods>
-      </class> <!-- TestNGCode.Phptravels -->
+      </class> <!-- TestNGCode.AmazonSignup1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

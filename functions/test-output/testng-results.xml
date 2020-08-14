@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="16" passed="16">
+<testng-results skipped="0" failed="0" total="20" passed="20">
   <reporter-output>
+    <line>
+      <![CDATA[Sign up data entered]]>
+    </line>
+    <line>
+      <![CDATA[Sign up button is working]]>
+    </line>
+    <line>
+      <![CDATA[URL validated]]>
+    </line>
+    <line>
+      <![CDATA[Sign up data entered]]>
+    </line>
+    <line>
+      <![CDATA[Sign up button is working]]>
+    </line>
+    <line>
+      <![CDATA[URL validated]]>
+    </line>
     <line>
       <![CDATA[URL validated]]>
     </line>
@@ -38,16 +56,16 @@
       <![CDATA[Page Title validated]]>
     </line>
   </reporter-output>
-  <suite name="Amazon Sign Up Data driven testing" duration-ms="43370" started-at="2020-08-13T20:46:10Z" finished-at="2020-08-13T20:46:54Z">
+  <suite name="Amazon Sign Up Data driven testing" duration-ms="49137" started-at="2020-08-14T15:43:33Z" finished-at="2020-08-14T15:44:22Z">
     <groups>
     </groups>
-    <test name="Sign Up/ creat new account" duration-ms="11062" started-at="2020-08-13T20:46:10Z" finished-at="2020-08-13T20:46:21Z">
+    <test name="Sign Up/ creat new account" duration-ms="9423" started-at="2020-08-14T15:43:33Z" finished-at="2020-08-14T15:43:42Z">
       <class name="TestNGCode.AmazonSignup1">
-        <test-method status="PASS" signature="BeforeTestConfig()[pri:0, instance:TestNGCode.AmazonSignup1@7823a2f9]" name="BeforeTestConfig" is-config="true" duration-ms="6506" started-at="2020-08-13T16:46:10Z" finished-at="2020-08-13T16:46:17Z">
+        <test-method status="PASS" signature="BeforeTestConfig()[pri:0, instance:TestNGCode.AmazonSignup1@7823a2f9]" name="BeforeTestConfig" is-config="true" duration-ms="4857" started-at="2020-08-14T11:43:33Z" finished-at="2020-08-14T11:43:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTestConfig -->
-        <test-method status="PASS" signature="AmazonSignDataEnter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestNGCode.AmazonSignup1@7823a2f9]" name="AmazonSignDataEnter" duration-ms="593" started-at="2020-08-13T16:46:17Z" finished-at="2020-08-13T16:46:17Z">
+        <test-method status="PASS" signature="AmazonSignDataEnter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestNGCode.AmazonSignup1@7823a2f9]" name="AmazonSignDataEnter" duration-ms="644" started-at="2020-08-14T11:43:38Z" finished-at="2020-08-14T11:43:38Z">
           <params>
             <param index="0">
               <value>
@@ -71,40 +89,108 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Sign up data entered]]>
+            </line>
           </reporter-output>
         </test-method> <!-- AmazonSignDataEnter -->
-        <test-method status="PASS" signature="CreatAccountButtonOperation()[pri:2, instance:TestNGCode.AmazonSignup1@7823a2f9]" name="CreatAccountButtonOperation" duration-ms="52" started-at="2020-08-13T16:46:17Z" finished-at="2020-08-13T16:46:17Z">
+        <test-method status="PASS" signature="CreatAccountButtonOperation()[pri:2, instance:TestNGCode.AmazonSignup1@7823a2f9]" name="CreatAccountButtonOperation" duration-ms="60" started-at="2020-08-14T11:43:38Z" finished-at="2020-08-14T11:43:39Z">
           <reporter-output>
+            <line>
+              <![CDATA[Sign up button is working]]>
+            </line>
           </reporter-output>
         </test-method> <!-- CreatAccountButtonOperation -->
-        <test-method status="PASS" signature="validateUrl()[pri:3, instance:TestNGCode.AmazonSignup1@7823a2f9]" name="validateUrl" duration-ms="9" started-at="2020-08-13T16:46:17Z" finished-at="2020-08-13T16:46:17Z">
+        <test-method status="PASS" signature="validateUrl()[pri:3, instance:TestNGCode.AmazonSignup1@7823a2f9]" name="validateUrl" duration-ms="9" started-at="2020-08-14T11:43:39Z" finished-at="2020-08-14T11:43:39Z">
           <reporter-output>
+            <line>
+              <![CDATA[URL validated]]>
+            </line>
           </reporter-output>
         </test-method> <!-- validateUrl -->
-        <test-method status="PASS" signature="validateTitlePage()[pri:4, instance:TestNGCode.AmazonSignup1@7823a2f9]" name="validateTitlePage" duration-ms="9" started-at="2020-08-13T16:46:17Z" finished-at="2020-08-13T16:46:17Z">
+        <test-method status="PASS" signature="validateTitlePage()[pri:4, instance:TestNGCode.AmazonSignup1@7823a2f9]" name="validateTitlePage" duration-ms="9" started-at="2020-08-14T11:43:39Z" finished-at="2020-08-14T11:43:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitlePage -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:TestNGCode.AmazonSignup1@7823a2f9]" name="AfterTest" is-config="true" duration-ms="3875" started-at="2020-08-13T16:46:17Z" finished-at="2020-08-13T16:46:21Z">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:TestNGCode.AmazonSignup1@7823a2f9]" name="AfterTest" is-config="true" duration-ms="3824" started-at="2020-08-14T11:43:39Z" finished-at="2020-08-14T11:43:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
       </class> <!-- TestNGCode.AmazonSignup1 -->
     </test> <!-- Sign Up/ creat new account -->
-    <test name="Pendora sign up data driven testing" duration-ms="11555" started-at="2020-08-13T20:46:21Z" finished-at="2020-08-13T20:46:33Z">
+    <test name="Sign Up/creat new account data set 2" duration-ms="8121" started-at="2020-08-14T15:43:42Z" finished-at="2020-08-14T15:43:51Z">
+      <class name="TestNGCode.AmazonSignup1">
+        <test-method status="PASS" signature="BeforeTestConfig()[pri:0, instance:TestNGCode.AmazonSignup1@5b275dab]" name="BeforeTestConfig" is-config="true" duration-ms="4081" started-at="2020-08-14T11:43:42Z" finished-at="2020-08-14T11:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTestConfig -->
+        <test-method status="PASS" signature="AmazonSignDataEnter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestNGCode.AmazonSignup1@5b275dab]" name="AmazonSignDataEnter" duration-ms="612" started-at="2020-08-14T11:43:46Z" finished-at="2020-08-14T11:43:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mehar Paul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PaulMehar2020@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12346Paul]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12346Paul]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Sign up data entered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AmazonSignDataEnter -->
+        <test-method status="PASS" signature="CreatAccountButtonOperation()[pri:2, instance:TestNGCode.AmazonSignup1@5b275dab]" name="CreatAccountButtonOperation" duration-ms="54" started-at="2020-08-14T11:43:47Z" finished-at="2020-08-14T11:43:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Sign up button is working]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreatAccountButtonOperation -->
+        <test-method status="PASS" signature="validateUrl()[pri:3, instance:TestNGCode.AmazonSignup1@5b275dab]" name="validateUrl" duration-ms="11" started-at="2020-08-14T11:43:47Z" finished-at="2020-08-14T11:43:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[URL validated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUrl -->
+        <test-method status="PASS" signature="validateTitlePage()[pri:4, instance:TestNGCode.AmazonSignup1@5b275dab]" name="validateTitlePage" duration-ms="7" started-at="2020-08-14T11:43:47Z" finished-at="2020-08-14T11:43:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitlePage -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:TestNGCode.AmazonSignup1@5b275dab]" name="AfterTest" is-config="true" duration-ms="3351" started-at="2020-08-14T11:43:47Z" finished-at="2020-08-14T11:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- TestNGCode.AmazonSignup1 -->
+    </test> <!-- Sign Up/creat new account data set 2 -->
+    <test name="Pendora sign up data driven testing" duration-ms="12323" started-at="2020-08-14T15:43:51Z" finished-at="2020-08-14T15:44:03Z">
       <class name="TestNGCode.PandoraSignUp2">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNGCode.PandoraSignUp2@29774679]" name="beforeTest" is-config="true" duration-ms="5423" started-at="2020-08-13T16:46:21Z" finished-at="2020-08-13T16:46:27Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNGCode.PandoraSignUp2@59f99ea]" name="beforeTest" is-config="true" duration-ms="4471" started-at="2020-08-14T11:43:51Z" finished-at="2020-08-14T11:43:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="validateURl()[pri:1, instance:TestNGCode.PandoraSignUp2@29774679]" name="validateURl" duration-ms="62" started-at="2020-08-13T16:46:27Z" finished-at="2020-08-13T16:46:27Z">
+        <test-method status="PASS" signature="validateURl()[pri:1, instance:TestNGCode.PandoraSignUp2@59f99ea]" name="validateURl" duration-ms="29" started-at="2020-08-14T11:43:55Z" finished-at="2020-08-14T11:43:55Z">
           <reporter-output>
             <line>
               <![CDATA[URL validated]]>
             </line>
           </reporter-output>
         </test-method> <!-- validateURl -->
-        <test-method status="PASS" signature="PandoraSignUpTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:TestNGCode.PandoraSignUp2@29774679]" name="PandoraSignUpTest" duration-ms="1099" started-at="2020-08-13T16:46:27Z" finished-at="2020-08-13T16:46:28Z">
+        <test-method status="PASS" signature="PandoraSignUpTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:TestNGCode.PandoraSignUp2@59f99ea]" name="PandoraSignUpTest" duration-ms="2893" started-at="2020-08-14T11:43:55Z" finished-at="2020-08-14T11:43:58Z">
           <params>
             <param index="0">
               <value>
@@ -133,33 +219,33 @@
             </line>
           </reporter-output>
         </test-method> <!-- PandoraSignUpTest -->
-        <test-method status="PASS" signature="ValidateUrlTile()[pri:4, instance:TestNGCode.PandoraSignUp2@29774679]" name="ValidateUrlTile" duration-ms="48" started-at="2020-08-13T16:46:28Z" finished-at="2020-08-13T16:46:28Z">
+        <test-method status="PASS" signature="ValidateUrlTile()[pri:4, instance:TestNGCode.PandoraSignUp2@59f99ea]" name="ValidateUrlTile" duration-ms="48" started-at="2020-08-14T11:43:58Z" finished-at="2020-08-14T11:43:58Z">
           <reporter-output>
             <line>
               <![CDATA[Submit buttom working]]>
             </line>
           </reporter-output>
         </test-method> <!-- ValidateUrlTile -->
-        <test-method status="PASS" signature="ValidateTitle()[pri:2, instance:TestNGCode.PandoraSignUp2@29774679]" name="ValidateTitle" duration-ms="7" started-at="2020-08-13T16:46:28Z" depends-on-methods="TestNGCode.PandoraSignUp2.validateURl" finished-at="2020-08-13T16:46:28Z">
+        <test-method status="PASS" signature="ValidateTitle()[pri:2, instance:TestNGCode.PandoraSignUp2@59f99ea]" name="ValidateTitle" duration-ms="8" started-at="2020-08-14T11:43:58Z" depends-on-methods="TestNGCode.PandoraSignUp2.validateURl" finished-at="2020-08-14T11:43:58Z">
           <reporter-output>
             <line>
               <![CDATA[Page Title validated]]>
             </line>
           </reporter-output>
         </test-method> <!-- ValidateTitle -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:TestNGCode.PandoraSignUp2@29774679]" name="aftertest" is-config="true" duration-ms="4907" started-at="2020-08-13T16:46:28Z" finished-at="2020-08-13T16:46:33Z">
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:TestNGCode.PandoraSignUp2@59f99ea]" name="aftertest" is-config="true" duration-ms="4867" started-at="2020-08-14T11:43:58Z" finished-at="2020-08-14T11:44:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
       </class> <!-- TestNGCode.PandoraSignUp2 -->
     </test> <!-- Pendora sign up data driven testing -->
-    <test name="PHP Tours data driven testing" duration-ms="10798" started-at="2020-08-13T20:46:33Z" finished-at="2020-08-13T20:46:44Z">
+    <test name="PHP Tours data driven testing" duration-ms="9484" started-at="2020-08-14T15:44:03Z" finished-at="2020-08-14T15:44:12Z">
       <class name="TestNGCode.Phptravels">
-        <test-method status="PASS" signature="BeforeTestConfig()[pri:0, instance:TestNGCode.Phptravels@6f7fd0e6]" name="BeforeTestConfig" is-config="true" duration-ms="6624" started-at="2020-08-13T16:46:33Z" finished-at="2020-08-13T16:46:40Z">
+        <test-method status="PASS" signature="BeforeTestConfig()[pri:0, instance:TestNGCode.Phptravels@3bfdc050]" name="BeforeTestConfig" is-config="true" duration-ms="5220" started-at="2020-08-14T11:44:03Z" finished-at="2020-08-14T11:44:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTestConfig -->
-        <test-method status="PASS" signature="PhpSignupTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestNGCode.Phptravels@6f7fd0e6]" name="PhpSignupTest" duration-ms="887" started-at="2020-08-13T16:46:40Z" finished-at="2020-08-13T16:46:40Z">
+        <test-method status="PASS" signature="PhpSignupTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestNGCode.Phptravels@3bfdc050]" name="PhpSignupTest" duration-ms="1041" started-at="2020-08-14T11:44:08Z" finished-at="2020-08-14T11:44:09Z">
           <params>
             <param index="0">
               <value>
@@ -198,47 +284,47 @@
             </line>
           </reporter-output>
         </test-method> <!-- PhpSignupTest -->
-        <test-method status="PASS" signature="validateSignupButton()[pri:2, instance:TestNGCode.Phptravels@6f7fd0e6]" name="validateSignupButton" duration-ms="56" started-at="2020-08-13T16:46:40Z" finished-at="2020-08-13T16:46:40Z">
+        <test-method status="PASS" signature="validateSignupButton()[pri:2, instance:TestNGCode.Phptravels@3bfdc050]" name="validateSignupButton" duration-ms="82" started-at="2020-08-14T11:44:09Z" finished-at="2020-08-14T11:44:09Z">
           <reporter-output>
             <line>
               <![CDATA[SignUp Button working]]>
             </line>
           </reporter-output>
         </test-method> <!-- validateSignupButton -->
-        <test-method status="PASS" signature="getUrl()[pri:3, instance:TestNGCode.Phptravels@6f7fd0e6]" name="getUrl" duration-ms="14" started-at="2020-08-13T16:46:40Z" finished-at="2020-08-13T16:46:40Z">
+        <test-method status="PASS" signature="getUrl()[pri:3, instance:TestNGCode.Phptravels@3bfdc050]" name="getUrl" duration-ms="8" started-at="2020-08-14T11:44:09Z" finished-at="2020-08-14T11:44:09Z">
           <reporter-output>
             <line>
               <![CDATA[URL validated]]>
             </line>
           </reporter-output>
         </test-method> <!-- getUrl -->
-        <test-method status="PASS" signature="getDriver()[pri:4, instance:TestNGCode.Phptravels@6f7fd0e6]" name="getDriver" duration-ms="8" started-at="2020-08-13T16:46:40Z" finished-at="2020-08-13T16:46:41Z">
+        <test-method status="PASS" signature="getDriver()[pri:4, instance:TestNGCode.Phptravels@3bfdc050]" name="getDriver" duration-ms="13" started-at="2020-08-14T11:44:09Z" finished-at="2020-08-14T11:44:09Z">
           <reporter-output>
             <line>
               <![CDATA[Page Title validated]]>
             </line>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:TestNGCode.Phptravels@6f7fd0e6]" name="AfterTest" is-config="true" duration-ms="3200" started-at="2020-08-13T16:46:41Z" finished-at="2020-08-13T16:46:44Z">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:TestNGCode.Phptravels@3bfdc050]" name="AfterTest" is-config="true" duration-ms="3111" started-at="2020-08-14T11:44:09Z" finished-at="2020-08-14T11:44:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
       </class> <!-- TestNGCode.Phptravels -->
     </test> <!-- PHP Tours data driven testing -->
-    <test name="Yahoo SignUp data driven testing" duration-ms="9880" started-at="2020-08-13T20:46:44Z" finished-at="2020-08-13T20:46:54Z">
+    <test name="Yahoo SignUp data driven testing" duration-ms="9730" started-at="2020-08-14T15:44:12Z" finished-at="2020-08-14T15:44:22Z">
       <class name="TestNGCode.YahooTestNG">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNGCode.YahooTestNG@1bce4f0a]" name="beforeTest" is-config="true" duration-ms="4243" started-at="2020-08-13T16:46:44Z" finished-at="2020-08-13T16:46:48Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNGCode.YahooTestNG@6a41eaa2]" name="beforeTest" is-config="true" duration-ms="4257" started-at="2020-08-14T11:44:12Z" finished-at="2020-08-14T11:44:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="validateURl()[pri:1, instance:TestNGCode.YahooTestNG@1bce4f0a]" name="validateURl" duration-ms="7" started-at="2020-08-13T16:46:48Z" finished-at="2020-08-13T16:46:48Z">
+        <test-method status="PASS" signature="validateURl()[pri:1, instance:TestNGCode.YahooTestNG@6a41eaa2]" name="validateURl" duration-ms="6" started-at="2020-08-14T11:44:17Z" finished-at="2020-08-14T11:44:17Z">
           <reporter-output>
             <line>
               <![CDATA[URL validated]]>
             </line>
           </reporter-output>
         </test-method> <!-- validateURl -->
-        <test-method status="PASS" signature="YahooSignUpTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:TestNGCode.YahooTestNG@1bce4f0a]" name="YahooSignUpTest" duration-ms="939" started-at="2020-08-13T16:46:48Z" finished-at="2020-08-13T16:46:49Z">
+        <test-method status="PASS" signature="YahooSignUpTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:TestNGCode.YahooTestNG@6a41eaa2]" name="YahooSignUpTest" duration-ms="994" started-at="2020-08-14T11:44:17Z" finished-at="2020-08-14T11:44:18Z">
           <params>
             <param index="0">
               <value>
@@ -287,21 +373,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- YahooSignUpTest -->
-        <test-method status="PASS" signature="ValidateUrlTile()[pri:4, instance:TestNGCode.YahooTestNG@1bce4f0a]" name="ValidateUrlTile" duration-ms="48" started-at="2020-08-13T16:46:49Z" finished-at="2020-08-13T16:46:49Z">
+        <test-method status="PASS" signature="ValidateUrlTile()[pri:4, instance:TestNGCode.YahooTestNG@6a41eaa2]" name="ValidateUrlTile" duration-ms="47" started-at="2020-08-14T11:44:18Z" finished-at="2020-08-14T11:44:18Z">
           <reporter-output>
             <line>
               <![CDATA[Submit buttom working]]>
             </line>
           </reporter-output>
         </test-method> <!-- ValidateUrlTile -->
-        <test-method status="PASS" signature="ValidateTitle()[pri:2, instance:TestNGCode.YahooTestNG@1bce4f0a]" name="ValidateTitle" duration-ms="7" started-at="2020-08-13T16:46:49Z" depends-on-methods="TestNGCode.YahooTestNG.validateURl" finished-at="2020-08-13T16:46:49Z">
+        <test-method status="PASS" signature="ValidateTitle()[pri:2, instance:TestNGCode.YahooTestNG@6a41eaa2]" name="ValidateTitle" duration-ms="7" started-at="2020-08-14T11:44:18Z" depends-on-methods="TestNGCode.YahooTestNG.validateURl" finished-at="2020-08-14T11:44:18Z">
           <reporter-output>
             <line>
               <![CDATA[Page Title validated]]>
             </line>
           </reporter-output>
         </test-method> <!-- ValidateTitle -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:TestNGCode.YahooTestNG@1bce4f0a]" name="aftertest" is-config="true" duration-ms="4631" started-at="2020-08-13T16:46:49Z" finished-at="2020-08-13T16:46:54Z">
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:TestNGCode.YahooTestNG@6a41eaa2]" name="aftertest" is-config="true" duration-ms="4414" started-at="2020-08-14T11:44:18Z" finished-at="2020-08-14T11:44:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->

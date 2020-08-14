@@ -113,4 +113,11 @@ public class YahooSignUpStepDeff {
 		Select Month = new Select(SignupPage.GetMonth());
 		Month.selectByVisibleText("July");
 }
+
+	@Given("^user can enter the password \"([^\"]*)\"$")
+	public void user_can_enter_the_password(String arg1) throws Throwable {
+		SignupPage.UserPassward().sendKeys(arg1);
+}
+	
+	
 }

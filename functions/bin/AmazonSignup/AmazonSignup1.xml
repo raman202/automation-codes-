@@ -14,6 +14,19 @@
 <class name="TestNGCode.AmazonSignup1"/>
 </classes>
 </test>
+
+<test name="Sign Up/creat new account data set 2">
+
+<parameter name="fullName" value="Mehar Paul"/>
+<parameter name="email" value="PaulMehar2020@gmail.com"/>
+<parameter name="password" value="12346Paul"/>
+<parameter name="confirmPassword" value="12346Paul"/>
+
+<classes>
+<class name="TestNGCode.AmazonSignup1"/>
+</classes>
+</test>
+
 <test name ="Pendora sign up data driven testing">
 <parameter name="email" value="RamanPaul@gmail.com"/>
 <parameter name="password" value="TheOne1"/>

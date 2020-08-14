@@ -1,0 +1,30 @@
+#Author: your.email@your.domain.com
+
+
+Feature: Amazon Sign Up
+
+ 
+  Scenario: Validate URL test
+    Given I want to write a step with precondition
+    And some other precondition
+    When I complete action
+    And some other action
+    And yet another action
+    Then I validate the outcomes
+    And check more outcomes
+ Scenario: Validate page title test
+    Given I want to write a step with precondition
+    And some other precondition
+    When I complete action
+    And some other action
+    And yet another action
+  
+  Scenario Outline: Amazon creat account data driven test
+    Given I want to write a step with <name>
+    When I check for the <value> in step
+    Then I verify the <status> in step
+
+    Examples: 
+      | name  | value | status  |
+      | name1 |     5 | success |
+      | name2 |     7 | Fail    |

@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -42,7 +43,7 @@ public void AmazonSignDataEnter(String fullName ,String email,String password, S
 		AmazonSignUp.UserEmail().sendKeys(email);
 		AmazonSignUp.UserPassword().sendKeys(password);
 		AmazonSignUp.confirmPassword().sendKeys(confirmPassword);
-		
+		Reporter.log("Sign up data entered");
 }
 
 @Test(priority=2)
@@ -52,6 +53,7 @@ public void CreatAccountButtonOperation() {
 		boolean Button2 =AmazonSignUp.creatAccountButton().isEnabled();
 		Assert.assertTrue(Button);
 		Assert.assertTrue(Button2);
+		Reporter.log("Sign up button is working");
 }
 
 @Test(priority=3)
@@ -61,6 +63,7 @@ public void validateUrl() {
 		String ExpectedUrl = "https://www.amazon.com/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fref%3Dap_frn_logo%2F%3F_encoding%3DUTF8%26ref_%3Dnav_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&";
 		System.out.println(ActualAmazonUrl);
 		Assert.assertEquals(ActualAmazonUrl, ExpectedUrl);
+		Reporter.log("URL validated");
 }
 
 @Test(priority=4)
