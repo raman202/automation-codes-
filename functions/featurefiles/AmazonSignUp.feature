@@ -1,30 +1,25 @@
 #Author: your.email@your.domain.com
-
-
 Feature: Amazon Sign Up
 
- 
   Scenario: Validate URL test
-    Given I want to write a step with precondition
-    And some other precondition
-    When I complete action
-    And some other action
-    And yet another action
-    Then I validate the outcomes
-    And check more outcomes
- Scenario: Validate page title test
-    Given I want to write a step with precondition
-    And some other precondition
-    When I complete action
-    And some other action
-    And yet another action
-  
+    Given user is on the Amazon sign up page
+    When user can validate the amazon sign up page URL
+    Then user can close the browser
+
+  Scenario: Validate page title test
+    Given user is on the Amazon sign up page
+    When user can see and validate the amazon sign up page title
+    Then user can close the browser
+
   Scenario Outline: Amazon creat account data driven test
-    Given I want to write a step with <name>
-    When I check for the <value> in step
-    Then I verify the <status> in step
+    Given user is on the Amazon sign up page
+    When user can enter thier name "<Name>"
+    When user can enter thier email "<Email>"
+    When user can enter a password"<Password>"
+    When user can confirm password "<Confirm password>"
+    Then user can close the browser
 
     Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
+      | Name         | Email                  | Password     | Confirm password |
+      | Raman Paul   | Rkpaul1987@gmail.com   | TheOne&Only  | TheOne&Only      |
+      | Monika Mehar | Gurmehar2020@gmail.com | MharPaul2019 | MharPaul2019     |
